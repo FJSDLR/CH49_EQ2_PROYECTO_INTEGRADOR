@@ -49,3 +49,14 @@
     margin-top: 10px;
     font-size: 1.25rem;
 }
+
+.card-img-top.hero_img {
+    transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+.card-img-top.hero_img.unset {
+    opacity: 1;
+    transform: translateX(0);
+}
